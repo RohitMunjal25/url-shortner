@@ -14,7 +14,7 @@ router.post("/shorten",async(req,res)=>{
             shortId
         });
         res.json({
-            shortUrl:`http://localhost:5000/${shortId}`
+            shortUrl: `${req.protocol}://${req.get("host")}/${shortId}`
         });
     }
     catch(err){
