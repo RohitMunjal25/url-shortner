@@ -11,7 +11,7 @@ body {
     height: 100vh;
     margin: 0;
 }
-
+ 
 @keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }

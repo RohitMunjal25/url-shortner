@@ -21,7 +21,6 @@ async function shortenurl() {
         const data = await res.json();
         const resultDiv = document.getElementById("result");
 
-        // Backend property 'shortUrl' hai, use wahi likhna hoga
         resultDiv.innerHTML = `
             <div class="link">${data.shortUrl}</div>
             <div class="actions">
